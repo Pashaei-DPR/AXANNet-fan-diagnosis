@@ -1,5 +1,5 @@
 Abstract— This paper introduces AXAN-Net, a neural architecture which integrates a Fully Connected Nonlinear Network (FCNN) with an Adaptive Exponential Feature Network (AEFN). The FCNN uses a gating mechanism to assign feature-wise importance scores, producing a modulated input vector that highlights informative components of the audio signal. This gated representation is then passed to the AEFN, where learnable exponential units with trainable centers and deviations transform the features into a smooth nonlinear space. The final output is projected onto a compact two-dimensional latent space, enabling a simple linear classifier to separate operating states with high accuracy. The model was evaluated using acoustic data recorded from a ventilation fan operating under three conditions: healthy, unbalanced type 1, and unbalanced type 2. AXAN-Net achieved a macro F1-score of 97% on the training set and 95% on the test set, outperforming PCA, SVD, MLP, RBF, and CNN-based methods. The resulting 2D embedding provided clear visual class separation and showed improved robustness under Min-Max scaling. 
 
 Keywords— Feature Extraction; Fault Detection; Condition Monitoring; Deep Learning.
-
+https://ieeexplore.ieee.org/document/11551758
 <img width="863" height="1024" alt="image" src="https://github.com/user-attachments/assets/19e5da53-2867-4b6d-82e6-89019c209c0d" />
